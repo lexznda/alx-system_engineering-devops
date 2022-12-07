@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr 'x '\n' | geep -v "oo"
+echo {a..z}{a..z} | tr 'x '\n' | grep -v "oo"
